@@ -1,0 +1,73 @@
+.navbar {
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    position: relative;
+  }
+  
+  .top-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .react-datepicker-wrapper input {
+    cursor: pointer;
+  }
+  
+  .button-row {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .action-button {
+    padding: 10px 300px;  /* big wide buttons */
+    background-color: #ffffff;
+    gap: 0;
+    border: 1px solid black;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap;
+  }
+  
+  .action-button:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 80px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fdd835;
+    border: 2px solid black;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+    font-size: 60px;
+    z-index: 2;
+  }
+
+  .navbar-content {
+    margin-left: 30px;
+    margin-right: 40px;
+    text-align: left;
+  }
